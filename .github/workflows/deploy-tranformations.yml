@@ -18,7 +18,7 @@ jobs:
                 environment: [test, prod]
                 include:
                     - environment: test
-                      # CDF cluster, like bluefield, greenfield or westeurope-1
+                      # CDF cluster, like bluefield, greenfield or westeurope-1 dfdf
                       CDF_CLUSTER: westeurope-1
                       # CDF Project name
                       CDF_PROJECT: cdf-bootcamp-05-test
