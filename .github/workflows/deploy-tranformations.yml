@@ -7,6 +7,9 @@ on:
         paths:
             - config/transformations/**
             - .github/workflows/deploy-transformations.yml
+    pull_request:
+        types:
+          - opened
 
 jobs:
     deploy:
